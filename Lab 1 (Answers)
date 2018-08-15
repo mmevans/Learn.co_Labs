@@ -1,0 +1,8 @@
+var header = document.querySelector("#header").innerHTML
+
+var linkText = document.querySelector("#left").querySelector("p").querySelector("a").innerHTML
+// the header and text are linked using innerHTML. 
+
+var linkHref = document.querySelector("#left").querySelector("p").querySelector("a").href
+
+// need to use href so you don’t link the text that is hyperlinked.
