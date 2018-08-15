@@ -1,0 +1,27 @@
+Selecting Single Elements Lab
+
+Introduction
+Welcome to your first lab! Please read this entire readme. We'll try to only include information to help you. This way, we won't waste your time and will allow you to get to the coding as fast as possible.
+
+We are going to continue with our search engine that pulls identifying information from Wikipedia. As you remember, Aardvark created a search engine such that when a user asked a question, the program would look to Wikipedia to pull related information about the question topic.
+
+Your task
+In the last section, we pulled the header, the text from the first link and the href from the first link. In this section we are going to pull the same information, but from a different simplified Wikipedia page. Since this is a lab we are going to complete our final code in the JavaScript tab of the CodePen below. You will work in the Browser Console to discover what the final solution will be, but to complete the lab, you must put your completed code in the JavaScript Tab of the CodePen.
+
+
+
+//Enter querySelector Code 
+var header = "ENTER HEADER CODE HERE"
+var linkText = "ENTER LINK TEXT CODE HERE"
+var linkHref = "ENTER LINK HREF CODE HERE"
+
+
+// NO NEED TO MODIFY BELOW HERE
+console.log(`The header is: ${header}`)
+console.log(`The first link text is: ${linkText}`)
+console.log(`The first link href is: ${linkHref}`)
+
+Instructions:
+Using the document.querySelector and text attribute, set the linkText variable to equal the text of the first link, which is "computer scientist". This will be just like you did in the previous README. If done correctly, your console will output the first link text is: computer scientist.
+
+Using the document.querySelector and href attribute, set the linkHref variable to equal the href of the first link, which is "https://en.wikipedia.org/wiki/Computer_scientist". This will also be just like you did in the previous README. If done correctly, your console will output The first link href is: https://en.wikipedia.org/wiki/Computer_scientist.
